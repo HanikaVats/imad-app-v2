@@ -14,8 +14,8 @@ var ArticleOne = {
                        <p>This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.
                        </p>
                        <p>This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.
-                       </p>
-                       </div> `
+                       </p>`
+                        
                    
                    
                    
@@ -44,6 +44,7 @@ var htmlTemplate =
         <div>
             <a href = "/">Home</a>
             <h1>  ${heading} </h1>
+            </hr>
             </div>
             <div>
                 ${date}
@@ -55,8 +56,8 @@ var htmlTemplate =
                 </div>
     </body>
     </html>
-`;
-return htmlTemplate;
+     `;
+     return htmlTemplate;
 }
 
 
