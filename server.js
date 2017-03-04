@@ -30,7 +30,7 @@ var htmlTemplate =
 `<html>
 <head>
     <title>
-            s{title}
+            ${title}
             
         </title>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -43,16 +43,16 @@ var htmlTemplate =
         
         <div>
             <a href = "/">Home</a>
-            <h1>  s{heading} </h1>
+            <h1>  ${heading} </h1>
             </div>
             <div>
-                s{date}
-                </div>
+                ${date}
+            </div>
                 <div>
-                       s{content}                
+                       ${content}                
 
-                    </div>
-                    </div>
+                </div>
+                </div>
     </body>
     </html>
 `;
