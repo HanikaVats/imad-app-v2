@@ -27,7 +27,7 @@ var date = data.date;
 var heading = data.heading;
 var content = data.content;
 var htmlTemplate = 
-<html>
+`<html>
 <head>
     <title>
             s{title}
@@ -55,7 +55,7 @@ var htmlTemplate =
                     </div>
     </body>
     </html>
-;
+`;
 return htmlTemplate;
 }
 
